@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --color-brand: #2563EB;
+  --color-brand-dark: #1D4ED8;
+  --color-accent: #14B8A6;
+  --color-accent-dark: #0F766E;
+  --color-ink: #0F172A;
+  --color-muted: #475569;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { @apply bg-slate-50 text-ink antialiased; }
+:focus-visible { outline: 3px solid var(--color-brand); outline-offset: 3px; border-radius: 6px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

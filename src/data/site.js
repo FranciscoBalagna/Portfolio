@@ -6,7 +6,7 @@ export const site = {
   location: 'Barcelona, España',
   github: 'https://github.com/FranciscoBalagna',
   linkedin: 'https://www.linkedin.com/in/franciscobalagna/',
-  email: 'TU-EMAIL@ejemplo.com', // ← pon tu email real
+  email: 'franciscobalagna@gmail.com', // ← pon tu email real
   cv: 'cv.pdf', // coloca tu CV en /public/cv.pdf
 }
 
